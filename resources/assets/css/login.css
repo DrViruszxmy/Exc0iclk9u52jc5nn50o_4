@@ -1,0 +1,40 @@
+body{
+	background: #fff;
+}
+.wrap-login{
+   	color: #14435F !important;
+}
+.wrap-login h1{
+	/*font-weight: 550;*/
+}
+.p-zero{
+	padding: 0;
+}
+.pr-zero{
+	padding-right: 0;
+}
+.user-icon{
+
+	background: #154360;
+}
+.user-icon img {
+	width: 20px;
+	height: 20px;
+}
+.custom-input input{
+	padding: 10px;
+	height: 40px;
+}
+.login-button{
+	background: #003040;
+}
+.panel-cus{
+	width: 90%;
+	background: #DDDDDD;
+}
+.hr-color{
+	border-top:1px solid rgba(217, 54, 0, 0.3) !important;
+}
+.pp-size{
+	padding: 15px 30px; 
+}

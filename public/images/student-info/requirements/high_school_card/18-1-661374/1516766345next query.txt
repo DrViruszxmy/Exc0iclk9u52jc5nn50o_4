@@ -1,0 +1,10 @@
+SELECT
+queue.queueNumber,
+Min(queue.queueDateTime),
+queue.stationId,
+queue.counterId
+FROM
+queue
+WHERE
+queue.stationId = 35 and
+queue.counterId is null

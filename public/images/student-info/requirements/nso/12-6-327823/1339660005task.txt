@@ -1,0 +1,35 @@
+Dashboard
+-student alredy exist after some validation ------------------ done
+
+Student Information
+ -barangay address type
+
+
+Subject Crediting
+ -only credited subject can only be edit
+ -remove grade
+
+
+Grade Evaluation
+-grade curriculum ---------------------------------------done
+-verify button semestral grade---------------------------done
+-create step mode in student-----------------------------done
+
+Grade Override
+-College grade
+-Senior High Grade
+
+Subject loading
+-According Pre requesite subject
+
+Dashboard
+-reset enrollment flow should change according to student status---------------------------done
+-verification button for registrar ----------------------------------------------------------done
+
+
+Student Info.
+-view only-----------------------------------------------------------------------------done
+
+
+C-Panel Enrollment Process
+-Access Portal add Verification button for SSG and Exam and Cashier----------------done

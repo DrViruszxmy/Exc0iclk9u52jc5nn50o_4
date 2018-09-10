@@ -1,0 +1,7 @@
+Student Information
+ -barangay address
+
+
+Subject Crediting
+ -only credited subject can only be edit
+ -remove grade

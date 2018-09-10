@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/library/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/library/fontawesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/library/jquery/css/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/library/pikaday/pikaday.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/login.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bg-images.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/join.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/about.css">
+</head>
+<body class="app">
+
+    <?php include("partials/bg-images.php") ?>
+
+    <?php include("partials/navbar.php") ?>
+    
+    <?php include("partials/search-panel.php") ?>
+
+    <!-- END HEADER-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 offset-2">
+                <div class="about-wrapper">
+                    <div class="sub-wrapper-about">
+                        <div class="row">
+                            <div class="col-md-9 join-fomo-title">
+                                <h1 class="rb-font-black">About fomo365</h1>
+                            </div>
+                            <div class="col-md-3 text-right">
+                                <a class="btn btn-default" href="join.php" id="FomoBtn">Join Now!</a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="about-image-wrap">
+                                    <div class="img-container">
+                                        <img src="assets/images/image gallery + homepage/Fomo365_cocktails.jpg" class="img-rounded">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8 pl-zero">
+                                <h5>What the fomo?</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8 pr-zero">
+                                <h5>What the fomo?</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="about-image-wrap">
+                                    <div class="img-container">
+                                        <img src="assets/images/image gallery + homepage/Fomo365_Acrobat.jpg" class="img-rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="about-image-wrap">
+                                    <div class="img-container">
+                                        <img src="assets/images/image gallery + homepage/Fomo365_art-gallery.jpg" class="img-rounded">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8 pl-zero">
+                                <h5>What the fomo?</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <?php include("partials/footer.php") ?>
+
+    <?php  include("partials/login-modal.php") ?>
+
+    <?php  include("partials/contact-modal.php") ?>
+
+    <script src="assets/library/jquery/js/jquery.js"></script>
+    <script src="assets/library/jquery/js/jquery-ui.min.js"></script>
+    <script src="assets/library/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/library/moment.min.js"></script>
+    <script src="assets/library/pikaday/pikaday.js"></script>
+    <script>
+        var picker = new Pikaday({ field: document.getElementById('datepicker') });
+
+        // $(document).ready(function(){
+        //     $(window).scroll(function(){
+        //         var scroll = $(window).scrollTop();
+        //         if (scroll > 125) {
+        //             $(".join-bg").css("position" , "fixed");
+        //             $(".join-bg").css("top" , "0px");
+        //         } 
+        //         else if (scroll < 125) {
+        //             $(".join-bg").css("position" , "absolute");
+        //             $(".join-bg").css("top" , "125px");
+        //         } 
+        //     })
+        // })
+    </script>
+</body>
+</html>

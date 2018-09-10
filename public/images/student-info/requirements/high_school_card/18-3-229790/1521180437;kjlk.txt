@@ -1,0 +1,66 @@
+
+.navbar-list{
+	font-size: 14px;
+}
+
+.navbar-list ul li a{
+	color: #fff !important;
+	border-right: 2px solid #fff; 
+	display: block;
+	padding-left: 20px;
+	
+}
+.navbar-list ul li { 
+	/*text-align: center;*/
+	/*padding: 0 5px;*/
+	/*padding-left: 10px;*/
+}
+.navbar-list ul li a:after {
+	/*content:'|';*/
+
+	font-weight: bold;
+	
+	font-size: 12px;
+}
+.last-li a {
+	border: 0 !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-list ul li a {
+		border: 0;
+    }
+}
+
+
+.navbar-inverse.nav-upper {
+  height: 50px;
+}
+.navbar-inverse.nav-upper ul {
+  float: right;
+  display: table;
+}
+.navbar-inverse.nav-upper .navbar-upper > li {
+  display: table-cell;
+  font-size: 14px;
+}
+.navbar-inverse.nav-upper .navbar-upper > li > a {
+  color: #777;
+}
+@media (min-width: 768px) {
+  .navbar.navbar-lower .navbar-nav {
+    margin-left: 100px;
+  }
+}
+.navbar-logo {
+  background-image: url('https://lh3.googleusercontent.com/-tw5LsU4Fg28/Umo6BBcoCnI/AAAAAAAAmjE/1iqULsem06E/w896-h896/heisencat.png');
+  width: 90px;
+  height: 90px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  z-index: 1051;
+}
